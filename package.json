@@ -2,7 +2,7 @@
   "name": "angular2-starter",
   "version": "0.1.0",
   "scripts": {
-    "build": "tsc --rootDir src --outDir dist",
+    "build": "webpack --progress",
     "postinstall": "typings install"
   },
   "dependencies": {
@@ -20,7 +20,9 @@
     "zone.js": "0.6.23"
   },
   "devDependencies": {
-    "typescript": "^1.8.10",
-    "typings": "^2.1.0"
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.0",
+    "webpack": "^2.2.1"
   }
 }
